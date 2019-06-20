@@ -7,6 +7,7 @@ A openCV sample code on Mac
 1. brew install cmake
 2. brew install opencv
 3. open xcode and create command line tool project
+
    language is c++
    create new group "opencv lib" and add openCV library (/usr/local/Cellar/opencv/{version}/lib/)
    set "Header Search Paths" in "Build Settings" to "/usr/local/Cellar/opencv/{version}/include"
